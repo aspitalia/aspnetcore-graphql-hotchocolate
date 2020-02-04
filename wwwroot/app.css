@@ -1,0 +1,27 @@
+ol {
+    margin-left: 0;
+    padding-left: 1.8em;
+
+}
+li {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 0;
+    padding-left: 0;
+}
+.product-name {
+    width: 20em;
+    display: inline-block;
+}
+.product-price {
+    width: 5em;
+    display: inline-block;
+    text-align: right;
+}
+.category-name {
+    width: 10em;
+    display: inline-block;
+}
+.product-price::before {
+    content: '€ ';
+}
